@@ -13,3 +13,4 @@ average = sum_elements // n  # Use integer division to match Java's behavior
 # Printing the results
 print("The sum of the elements in the array is:", sum_elements)
 print("Average is:", average)
+# testing
