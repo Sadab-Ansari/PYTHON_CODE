@@ -1,8 +1,16 @@
-s1 = "Sadab"
-s2 = "Ansari"
-concatenated_string = s1 + " " + s2
-
-print("Concatenated String:", concatenated_string)
-substring = concatenated_string[0:5]
-
-print("Substring:", substring)
+def ar_operation(x, y, operation):
+    if operation == '+':
+        return x + y
+    elif operation == '-':
+        return x - y
+    elif operation == '*':
+        return x * y
+    elif operation == '/':
+        return x / y
+    else:
+        return "Invalid operation"
+x = float(input("Enter the first number: "))
+y = float(input("Enter the second number: "))
+operation = input("Enter the operation (/,-,+,*): ")
+result = ar_operation(x, y, operation)
+print(f"Result: {result}")
