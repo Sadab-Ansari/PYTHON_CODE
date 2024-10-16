@@ -3,7 +3,7 @@ class StringReverser:
         self.text = text
 
     def reverse_words(self):
-        reversed_text = ' '.join(self.text.split()[::-1]) #sequence[start:stop:step]  step how the sequence will traversed
+        reversed_text = ' '.join(self.text.split()[::-1]) #sequence[start:stop:step] step=how the sequence will traversed
         return reversed_text
 
 text = input("Enter a string: ")
